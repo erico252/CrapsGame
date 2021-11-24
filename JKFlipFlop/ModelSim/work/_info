@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/eric/OneDrive/Desktop/IC Design/Project/Adder/ModelSim
+Eadder
+Z1 w1636054063
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 84
+R0
+Z4 8../Adder.vhd
+Z5 F../Adder.vhd
+l0
+L4 1
+VULe<Pof7[T1CkKYVhi7mH3
+!s100 YEe:]Gz<QN:?D?J>:17H_3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1636057497
+!i10b 1
+Z8 !s108 1636057497.000000
+Z9 !s90 -reportprogress|300|../Adder.vhd|
+Z10 !s107 ../Adder.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Aadding
+R2
+R3
+DEx4 work 5 adder 0 22 ULe<Pof7[T1CkKYVhi7mH3
+!i122 84
+l15
+L13 6
+V_Wmg_YO_?9X>03iCNP=4i1
+!s100 HQ[RXZoT?L5mbf2J`K_K=0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Ejkflipflop
+w1636058388
+R2
+R3
+!i122 88
+dC:/Users/eric/OneDrive/Desktop/IC Design/Project/JKFlipFlop/ModelSim
+8../JKFlipFlop.vhd
+F../JKFlipFlop.vhd
+l0
+L4 1
+VlEQFH8i[mQOCB257lN1dX1
+!s100 ?DXI?HVm<OTiB>IE?3V=I1
+R6
+32
+!s110 1637097007
+!i10b 1
+!s108 1637097007.000000
+!s90 -reportprogress|300|../JKFlipFlop.vhd|
+!s107 ../JKFlipFlop.vhd|
+!i113 1
+R11
+Etestbench
+Z12 w1636057225
+R2
+R3
+!i122 85
+R0
+Z13 8testbench.vht
+Z14 Ftestbench.vht
+l0
+L5 1
+Vik]ba4ZbDCdA5j<ILURU>1
+!s100 UbMRTfaOdmjP^do9Mnf5Z3
+R6
+32
+Z15 !s110 1636057498
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|testbench.vht|
+Z17 !s107 testbench.vht|
+!i113 1
+R11
+Atesting
+R2
+R3
+DEx4 work 9 testbench 0 22 ik]ba4ZbDCdA5j<ILURU>1
+!i122 85
+l23
+L8 32
+V>efWkUG9bZkgI_ka4hKDz1
+!s100 YGE>C6_?LS[9Bj?kkB?KA1
+R6
+32
+R15
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11

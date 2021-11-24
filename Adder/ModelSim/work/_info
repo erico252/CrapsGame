@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/eric/OneDrive/Desktop/IC Design/Project/Adder/ModelSim
+Eadder
+Z1 w1636987324
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 135
+R0
+Z4 8../Adder.vhd
+Z5 F../Adder.vhd
+l0
+L4 1
+VC2GBgRMRRlzT3nHBTPY601
+!s100 Q8]JRReMZ6>S;ajE_zaNl1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1636987352
+!i10b 1
+Z8 !s108 1636987352.000000
+Z9 !s90 -reportprogress|300|../Adder.vhd|
+Z10 !s107 ../Adder.vhd|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Aadding
+R2
+R3
+DEx4 work 5 adder 0 22 C2GBgRMRRlzT3nHBTPY601
+!i122 135
+l16
+L13 20
+VWQ8BU2L0EoML[@Z?4l1K;0
+!s100 aYV9_eQY<bdl`jBQ9>EKb2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Etestbench
+Z12 w1636986237
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 136
+R0
+Z16 8testbench.vht
+Z17 Ftestbench.vht
+l0
+L7 1
+V^:V3LUN>I78LNJn>P2@4`0
+!s100 k^MMFaC57jHfSC4=joK7o1
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|testbench.vht|
+Z19 !s107 testbench.vht|
+!i113 1
+R11
+Atesting
+R13
+R14
+R15
+R2
+R3
+Z20 DEx4 work 9 testbench 0 22 ^:V3LUN>I78LNJn>P2@4`0
+!i122 136
+l25
+Z21 L10 33
+Z22 V>JhPVTPVT=cUALZn<FHjL0
+Z23 !s100 c5`hPkCf;V]Z=zC5D=m`a0
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11

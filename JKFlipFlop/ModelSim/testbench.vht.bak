@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity testbench is
+end testbench;
+
+architecture testing of testbench is
+    component Adder
+        port (
+            A : in std_logic;
+            B : in std_logic;
+            Result : out std_logic;
+            Carry : out std_logic
+        );
+    end component;
+
+    signal A : std_logic;
+    signal B : std_logic;
+    signal Result : std_logic;
+    signal Carry : std_logic;
+    
+    begin
+        process
+            A <= '0'; B <= '0';
+            ALoop : for i in 0 to 1 loop
+                A <= A + '1';
+                BLoop : for j in 0 to 1 loop
+                    B <= B + '1';
+                    wait for 10 ns;
+                end loop; -- BLoop
+            end loop; -- ALoop
+        end process;
+        outputs: Adder port map (A, B, Result, Carry);
+    end;
